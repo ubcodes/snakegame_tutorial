@@ -1,0 +1,49 @@
+body {
+    background: #fffde7;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.title{
+    position: absolute;
+    top: 0;
+    margin-top: 40px;
+    margin-left: 40px;
+    text-align: center;
+    font-size: 1.8em;
+    color: #ff6f00;
+}
+
+#snakecanvas {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.restartButton {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 34px;
+    background: #fffde7;
+    display: flex;
+    margin-left: 47.5%;
+    
+}
+
+#score {
+    text-align: center;
+    font-size: 140px;
+    position: absolute;
+    left: 0;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+
+
+/* dark theme */
+body.dark-theme {
+    background: #333;
+    color: #fff;
+
+}

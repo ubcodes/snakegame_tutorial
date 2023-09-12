@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Canvas</title>
+  </head>
+  <body>
+    <canvas id="canvas" width="400" height="200"></canvas>
+
+    <script>
+      //we want to get the canvas element
+      var canvas = document.getElementById("canvas");
+
+      //we want to get the context of the canvas - 2D context
+      var ctx = canvas.getContext("2d");
+
+      //we'd set the fill color
+      ctx.fillStyle = "red";
+
+      //draw a rectangle
+      ctx.fillRect(10, 10, 100, 100);
+    //   ctx.fillRect(x, y, width, height);
+      
+    </script>
+  </body>
+</html>
