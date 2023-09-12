@@ -1,3 +1,4 @@
+![snakegame](https://github.com/ubcodes/snakegame_tutorial/assets/101749091/df89c95a-f49f-44d3-994b-3290482f07a6)
 
 # Build and Deploy a Javascript Snake 🐍 Game 🎮 + Theme Settings
 
